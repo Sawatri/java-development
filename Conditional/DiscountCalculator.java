@@ -5,10 +5,10 @@ class DiscountCalculator{
 
  Scanner sc = new Scanner(System.in);
  
- System.out.print("Enter orignal price :");
+ System.out.print("Enter orignal price: ");
  float price = sc.nextFloat();
 
- System.out.print("Enter discount percentage :");
+ System.out.print("Enter discount percentage: ");
  float discountPercentage = sc.nextFloat();
 
  float discountAmount = (price*discountPercentage)/100;

@@ -79,9 +79,5 @@ double price;
  haier.discountOffer(haier.price);
  haier.purchasingRange();
 
-
-
-
-
 }
 }

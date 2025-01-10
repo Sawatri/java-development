@@ -7,5 +7,6 @@ class NewtonEquation2{
  int v = u*u+2*a*s;
  float result =(float) Math.sqrt(v);
  System.out.println("Newton 2nd Eq"+" "+result);
+
 }
 }
