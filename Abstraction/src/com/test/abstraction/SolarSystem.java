@@ -17,6 +17,5 @@ public abstract class SolarSystem {
     public void display() {
         System.out.println("Diameter = " + diameter);
         System.out.println("Temperature = " + temp);
-
     }
 }
