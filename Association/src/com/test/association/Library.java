@@ -1,4 +1,4 @@
-package com.test.association;
+package com.test.librarystudent;
 
 public class Library {
     private String libraryCardNo;
