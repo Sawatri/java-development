@@ -13,12 +13,16 @@ public class Bank extends ATM{
     public void withDrawMoney(double amount) {
         if(balance >= amount){
             balance -= amount;
-            System.out.println();
+            System.out.println("Withdrew money "+amount);
+        }else{
+            System.out.println("Insufficient balance");
         }
     }
 
     public void showBalance(){
         System.out.println("Current balance is: " + balance);
     }
+
+    public void
 
 }
