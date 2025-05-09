@@ -9,19 +9,19 @@ public class GmailLogin {
         this.email = email+"@gmail.com";
     }
     public String getEmail(){
-        return this.email;
+        return email;
     }
     public void setPassword(int password){
         this.password = password;
     }
     public int getPassword(){
-        return this.password;
+        return password;
     }
     public void setVerificationCode(int verificationCode){
         this.verificationCode = verificationCode;
     }
     public int getVerificationCode(){
-        return this.verificationCode;
+        return verificationCode;
     }
 
 }
