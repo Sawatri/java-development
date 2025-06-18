@@ -1,0 +1,11 @@
+CREATE DATABASE MOBILE_DB;
+
+USE MOBILE_DB;
+
+CREATE TABLE device_info(
+phone_id INT PRIMARY KEY,
+brand VARCHAR(100),
+model VARCHAR(255),
+price INT
+);
+

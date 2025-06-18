@@ -1,0 +1,10 @@
+CREATE DATABASE LMS;
+
+USE LMS;
+
+CREATE TABLE books(
+title VARCHAR(255),
+author VARCHAR(100),
+isbn VARCHAR(100),
+price INT
+);

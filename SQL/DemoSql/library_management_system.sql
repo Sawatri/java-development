@@ -21,6 +21,7 @@ alter table books add column edition varchar(255);
 update books set edition='4th' where book_id=1;
 update books set author='John' where book_id=2;
 
-SELECT * FROM LIBRARY_MANAGEMENT_SYSTEM.BOOKS;employee_info
+SELECT * FROM LIBRARY_MANAGEMENT_SYSTEM.BOOKS;
+
 
 delete from books where book_id=6;
